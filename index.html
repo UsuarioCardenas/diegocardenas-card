@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Cardenas</title>
+    <style>
+        @font-face {
+        font-family: 'BastionX';
+        src: url('https://res.cloudinary.com/dv1rigwbo/raw/upload/v1742783790/BastionX_qqxpnj.woff2') format('woff2');
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            background-image: url('https://res.cloudinary.com/dv1rigwbo/image/upload/v1742784642/Dise%C3%B1o_sin_t%C3%ADtulo_1_kg4wqo.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            font-family: monospace;
+            text-align: center;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2.5vh;
+            width: min(95%, 380px);
+            padding: 3vw;
+            border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(4px);
+            overflow: hidden;
+        }
+
+        img {
+            width: min(50vw, 180px);
+            height: auto;
+            border-radius: 50%;
+        }
+
+        h1 {
+            font-size: clamp(14px, 3vw, 18px);
+            margin: 0;
+        }
+
+        h2 {
+            font-size: clamp(12px, 2.5vw, 16px);
+            color: black;
+            margin: 0;
+        }
+
+        p {
+            font-size: clamp(11px, 2vw, 14px);
+            margin: 0;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .badge {
+            padding: 3px 6px;
+            border-radius: 6px;
+            background-color: #A084E8;
+            color: black;
+            font-weight: 700;
+            font-size: clamp(10px, 1.8vw, 12px);
+            transition: box-shadow 0.25s, filter 0.25s;
+        }
+
+        .badge:hover {
+            box-shadow: 0 2px 4px 0 #866AC1;
+            filter: brightness(1.25);
+        }
+
+        .link {
+            color: white;
+            font-weight: 700;
+            font-size: clamp(10px, 1.8vw, 12px);
+            transition: color 0.25s;
+        }
+
+        .link:hover {
+            color: #866AC1;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQGcq9aJelvAHw/profile-displayphoto-shrink_200_200/B4DZPCju0lHcAY-/0/1734135967864?e=1748476800&v=beta&t=jaU2EwxqJ5o0Z79EPZsBGqQQvIwujxY-jfRarR9g8TQ" alt="Diego Cardenas">
+        <h1> Diego Cardenas 20 </h1>
+        <h2>🌍 Full Stack Developer 🌍 | 🧠 AI Engineer 🧠 | 🏗️ Software Architect 🏗️</h2>
+        <p>
+            Full Stack especializado en <b>🍃 Spring</b> y <b>💎 .NET</b>.
+            Experto en Machine Learning con <b>🧠 ML.NET</b> y desarrollo multiplataforma con <b>📱 .NET MAUI</b>.
+            Apasionado por construir arquitecturas escalables y seguras utilizando todo el ecosistema de <b>Spring</b>
+            (Boot, Security, Cloud, Data, WebFlux, Batch, Integration) y <b>.NET</b> (ASP.NET Core, Blazor, Entity Framework, SignalR, ARM64, ML.net). 🚀
+        </p>
+        <ul>
+            <li class="badge">☕ Java ☕</li>
+            <li class="badge">#️⃣ C# #️⃣</li>
+            <li class="badge">🧬 F# 🧬</li>
+            <li class="badge">🍃 Spring Boot 🍃</li>
+            <li class="badge">💎 .NET Core 💎</li>
+            <li class="badge">λ Half-Life λ</li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://www.youtube.com/@DiegoAlessandroCardenasGarcia" class="link" target="_blank"
+                   rel="noopener noreferrer">YouTube</a>
+            </li>
+            <li>
+                <a href="https://github.com/UsuarioCardenas" class="link" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/diego-alessandro-cardenas-garcia-55716a2aa" class="link" target="_blank"
+                   rel="noopener noreferrer">LinkedIn</a>
+            </li>
+        </ul>
+    </main>
+</body>
+
+</html>
